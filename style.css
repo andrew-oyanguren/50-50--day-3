@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: 0;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  background-color: #333;
+  color: #222;
+}
+
+.container {
+  background-color: #fafafa;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
